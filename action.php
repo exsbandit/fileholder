@@ -1,7 +1,6 @@
 <?php
 
 //action.php
-
 $connect = new PDO("mysql:host=localhost;dbname=vuetest", "root", "");
 $received_data = json_decode(file_get_contents("php://input"));
 $data = array();
